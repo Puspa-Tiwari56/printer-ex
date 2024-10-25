@@ -2,7 +2,7 @@ import java.util.Scanner;
         public class  App {
             public static void main(String[] args) throws Exception { 
                 Scanner in = new Scanner(System.in);
-                System.out.println("What is your name?");
+                System.out.println("What is your age?");
                 String name = in.nextLine();;
 
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
                 }
                     else
             {
-                System.err.println("Our name is " + name + ".");
+                System.err.println("My age is " + 25 + ".");
             }}
 
         }
